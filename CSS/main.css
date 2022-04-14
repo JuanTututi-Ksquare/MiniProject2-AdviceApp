@@ -1,3 +1,17 @@
 body {
     margin: 0;
 }
+
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advice-container {
+    padding: 50px 80px;
+    border: 1px solid black;
+    max-width: 500px;
+    margin: auto 10px;
+}
