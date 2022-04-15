@@ -5,18 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ITK Advice App</title>
-    <link rel="stylesheet" href="./CSS/main.css">
+    <style>
+        body {
+    margin: 0;
+}
+
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.advice-container {
+    padding: 50px 80px;
+    border: 1px solid black;
+    max-width: 500px;
+    margin: auto 10px;
+    
+}
+
+.another{
+    padding: 10px 30px;
+    margin-top: 100px;
+}
+#close-image img {
+    display: block;
+    height: 40px;  
+    width: 40px;
+}
+    </style>
   </head>
   <body>
     <div class="app">
       <div class="advice-container">
-        <div class="advice">
+          <div class="advice">
             <p>"This is a sample advice"</p>
-         </div>
-         <div>
-            <button class="another">Another One Please</button>
           </div>
+       
       </div>
+      <div>
+        <button class="another">Another One Please</button>
+        
+      </div>
+      
+
     </div>
+    
   </body>
 </html>
