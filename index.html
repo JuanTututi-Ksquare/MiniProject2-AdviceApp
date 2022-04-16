@@ -5,21 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ITK Advice App</title>
-    <link rel="stylesheet" href="./CSS/main.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="app">
       <div class="advice-container">
         <div class="advice">
-            <p>"This is a sample advice"</p>
-         </div>
-         
+          <p id="advice-text"></p>
+        </div>
+        <div class="buttons">
+          <button class="another">Another One Please</button>
+          <button class="share"><img src="./IMG/twitter.png" /></button>
+        </div>
       </div>
- 
     </div>
-    <div>
-            <button class="another">Another One Please</button>
-            <button id="close-image"><img src="CSS/twiter_bird.png"></button>
-     </div>
   </body>
+  <script src="./JS/app.js"></script>
 </html>
