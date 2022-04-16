@@ -2,7 +2,8 @@ const anotherButton = document.querySelector(".another");
 const adviceText = document.querySelector("#advice-text");
 
 const createAdvice = (data) => {
-    adviceText.innerHTML = data.slip.advice;
+  advice = data.slip.advice;
+  adviceText.innerHTML = advice;
 };
 
 const getAdvice = async () => {
@@ -15,3 +16,7 @@ const getAdvice = async () => {
 window.onload = () => {
   getAdvice();
 };
+
+anotherButton.addEventListener("click", () => {
+  getAdvice();
+});
