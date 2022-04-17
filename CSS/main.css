@@ -63,3 +63,9 @@ body {
 .share img {
   max-width: 35px;
 }
+
+@media only screen and (max-width: 600px) {
+ .advice{
+   padding: 30px 70px;
+ }
+}
