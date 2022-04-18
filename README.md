@@ -1,7 +1,10 @@
 # Advice-App
+## Team Members
+### Juan Pablo Tututi
+### Sergio Gamboa Juan Pablo Tututi
 
 ## SecondProject
-| User Stories     | Sergio | Juan Pablo |
+| User Stories     | Sergio Gamboa | Juan Pablo Tututi |
 | ---------------- | :--: | ---: |
 | 1.The advice app must contain a container where the Advice text should go  |  |  x  |
 | 2.The advice app must have its container fully centered both horizontally and vertically   |    |  x  |
@@ -12,3 +15,5 @@
 | 7. As a user when I click the element from US#5, I should be able to share the advice using Twitter   |  x   |     |
 | 8. The app should work and look fine in a 320px width viewport |     |  x |
 | 9. The background color should change to a random color whenever a new advice is loaded |  x   |      |
+## Live Version
+[Advice App](https://juantututi-ksquare.github.io/MiniProject2-AdviceApp/)
