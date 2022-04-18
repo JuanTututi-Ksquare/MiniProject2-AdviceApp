@@ -1,7 +1,10 @@
 # Advice-App
+## Team Members
+### Juan Pablo Tututi
+### Sergio Gamboa Juan Pablo Tututi
 
 ## SecondProject
-| User Stories     | Sergio | Juan Pablo |
+| User Stories     | Sergio Gamboa | Juan Pablo Tututi |
 | ---------------- | :--: | ---: |
 | 1.The advice app must contain a container where the Advice text should go  |  |  x  |
 | 2.The advice app must have its container fully centered both horizontally and vertically   |    |  x  |
