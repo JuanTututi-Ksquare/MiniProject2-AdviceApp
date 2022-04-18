@@ -12,3 +12,5 @@
 | 7. As a user when I click the element from US#5, I should be able to share the advice using Twitter   |  x   |     |
 | 8. The app should work and look fine in a 320px width viewport |     |  x |
 | 9. The background color should change to a random color whenever a new advice is loaded |  x   |      |
+## Live Version
+[Advice App](https://juantututi-ksquare.github.io/MiniProject2-AdviceApp/)
