@@ -1,7 +1,7 @@
 # Advice-App
 ## Team Members
 ### Juan Pablo Tututi
-### Sergio Gamboa Juan Pablo Tututi
+### Sergio Gamboa
 
 ## SecondProject
 | User Stories     | Sergio Gamboa | Juan Pablo Tututi |
