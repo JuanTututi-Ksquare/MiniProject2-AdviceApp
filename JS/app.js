@@ -2,43 +2,47 @@ const anotherButton = document.querySelector(".another");
 const adviceText = document.querySelector("#advice-text");
 const shareButton = document.querySelector(".share");
 const colors = [
+  "#005555",
   "#001E6C",
-  "#1A3C40",
   "#383838",
-  "​#006778",
-  "#3A3845",
-  "#46244C",
-  "#0E185F",
-  "#361500",
+  "​#8E3200",
+  "#06113C",
+  "#22577E",
+  "#FFD36E",
+  "#8FBDD3",
   "#084594",
   "#00B4D8",
 ];
 
-const changeBackground = (data) => {
+const changeBackground = () => {
   let random = Math.floor(Math.random() * 10);
   document.body.style.backgroundColor = colors[random];
 };
 
-const createAdvice = (data) => {
+const createAdvice = (data, firstTime) => {
+  let previousAdvice = adviceText.innerHTML;
   advice = data.slip.advice;
   let formatedText = advice.replaceAll(" ", "%20");
   shareButton.href = "https://twitter.com/intent/tweet?text=" + formatedText;
   adviceText.innerHTML = advice;
+  if(previousAdvice !== adviceText.innerHTML && !firstTime) {
+    changeBackground();
+  }
 };
 
-const getAdvice = async () => {
+const getAdvice = async (firstTime) => {
   const url = "https://api.adviceslip.com/advice";
   const res = await fetch(url);
   const data = await res.json();
-  createAdvice(data);
+  createAdvice(data, firstTime);
 };
 
 window.onload = () => {
-  getAdvice();
+  let firstTime = true;
+  getAdvice(firstTime);
 };
 
 anotherButton.addEventListener("click", () => {
-  getAdvice().then(() => {
-    changeBackground();
-  });
+  let firstTime = false;
+  getAdvice(firstTime);
 });
